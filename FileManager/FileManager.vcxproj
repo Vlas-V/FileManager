@@ -151,7 +151,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="dllist.cpp" />
     <ClCompile Include="FileManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dllist.h" />
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="allocated.txt" />
+    <Text Include="free.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

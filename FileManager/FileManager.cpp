@@ -1,11 +1,30 @@
 // FileManager.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include "pch.h"
 
 int main()
 {
-    std::cout << "Hello yourself!\n"; 
+
+	// Retrive data from files
+
+	// Take user's input and execute the command
+
+	std::string command;
+	bool exit = false;
+
+	while (!exit)
+	{
+		// Prompt the user for input
+		std::cout << "FileManager:>";
+		std::cin >> command;
+		exit = controller(command);
+	}
+
+	// Save data back to the files
+
+	// Free allocated memory
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
